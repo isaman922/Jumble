@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Test Jumble
+Created by: Daniel Isaman
+Date: 11/15/19
+
+Tips to creating a jumble:
+   1) Keep answers strictly alphabetic, and less than or equal to 12 characters long
+   2) Answer in the final round (round="fin") must be made up of letters found in the other answers
+   3) Indicate which letter(s) from each regular answer will be used in the final answer
+         (i.e. If "H" and "S" from horse would be used in the final answer, index would be 14
+         because "H" was the first letter in horse and "S" was the fourth.)
+   4) Do not change the round attribute
+   5) Do not add or remove words. Each round will have exactly 5 regular words and 1 final word.
+   6) Hint for the regular words should be brief fragments. Hint for the final should be a sentence.
+   7) To change the game, save the previous game as something meaningful, and rename the file to be used "CurrentXML.xml"
+-->
+<jumble>
+<gameData title="Bank Word Jumble" subtitle="November 2019" supervisor="JC Davis"></gameData>
+<word round="reg" answer="Jasper" hint="Stone" index="5"></word>
+<word round="reg" answer="Solo" hint="Red cup" index="2"></word>
+<word round="reg" answer="Mountain" hint="Peaks" index="58"></word>
+<word round="reg" answer="Daniel" hint="A name" index="6"></word>
+<word round="reg" answer="Summer" hint="Hot" index="3"></word>
+<word round="fin" answer="Molten" hint="When the snake shed his gold skin he was no longer __________"></word>
+</jumble>
