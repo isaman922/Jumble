@@ -62,27 +62,17 @@ namespace WordJumble.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;title&gt;Bank Word Jumble&lt;/title&gt;
-        ///&lt;subtitle&gt;November 2019&lt;/subtitle&gt;
-        ///&lt;supervisor&gt;JC Davis&lt;/supervisor&gt;
-        ///&lt;word round=&quot;reg&quot;&gt;
-        ///&lt;answer&gt;Jasper&lt;/answer&gt;
-        ///&lt;hint&gt;Stone&lt;/hint&gt;
-        ///&lt;finalIndex&gt;5&lt;finalIndex&gt;
-        ///&lt;/word&gt;
-        ///&lt;word round=&quot;reg&quot;&gt;
-        ///&lt;answer&gt;Solo&lt;/answer&gt;
-        ///&lt;hint&gt;Red cup&lt;/hint&gt;
-        ///&lt;finalIndex&gt;2&lt;finalIndex&gt;
-        ///&lt;/word&gt;
-        ///&lt;word round=&quot;reg&quot;&gt;
-        ///&lt;answer&gt;Mountain&lt;/answer&gt;
-        ///&lt;hint&gt;Peaks&lt;/hint&gt;
-        ///&lt;finalIndex&gt;14&lt;finalIndex&gt;
-        ///&lt;/word&gt;
-        ///&lt;word round=&quot;reg&quot;&gt;
-        ///&lt;answer&gt;Daniel&lt;/answer&gt;
-        ///&lt;hint&gt;A name&lt;/hin [rest of string was truncated]&quot;;.
+        ///&lt;!--
+        ///Test Jumble
+        ///Created by: Daniel Isaman
+        ///Date: 11/15/19
+        ///
+        ///Tips to creating a jumble:
+        ///   1) Keep answers strictly alphabetic, and less than or equal to 12 characters long
+        ///   2) Answer in the final round (round=&quot;fin&quot;) must be made up of letters found in the other answers
+        ///   3) Indicate which letter(s) from each regular answer will be used in the final answer
+        ///         (i.e. If &quot;H&quot; and &quot;S&quot; from horse would be used in the final answer, index would be 14
+        ///         [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string CurrentXML {
             get {

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Test Jumble
+Created by: Daniel Isaman
+Date: 11/15/19
+
+Tips to creating a jumble:
+   1) Keep answers strictly alphabetic, and less than or equal to 12 characters long
+   2) Answer in the final round (round="fin") must be made up of letters found in the other answers
+   3) Indicate which letter(s) from each regular answer will be used in the final answer
+         (i.e. If "H" and "S" from horse would be used in the final answer, index would be 14
+         because "H" was the first letter in horse and "S" was the fourth.)
+   4) Do not change the round attribute
+   5) Do not add or remove words. Each round will have exactly 5 regular words and 1 final word.
+   6) Hint for the regular words should be brief fragments. Hint for the final should be a sentence.
+   7) To change the game, save the previous game as something meaningful, and rename the file to be used "CurrentXML.xml"
+-->
+<jumble>
+<gameData title="Bank Word Jumble" subtitle="November 2019" supervisor="JC Davis"></gameData>
+<word round="reg" answer="Glacier" hint="Family" index="56"></word>
+<word round="reg" answer="Comenity" hint="Not cards, folks" index="14"></word>
+<word round="reg" answer="Alpine" hint="Let's chat" index="24"></word>
+<word round="reg" answer="Landmark" hint="From Collierville, TN" index="37"></word>
+<word round="reg" answer="BlueRidge" hint="From Independence, MO" index="17"></word>
+<word round="fin" answer="Incredible" hint="I used to think River Valley Bank was good but now it's undeniably __________!"></word>
+</jumble>

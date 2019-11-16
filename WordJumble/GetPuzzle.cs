@@ -24,15 +24,24 @@ namespace WordJumble
 
         public GetPuzzle(Game sender)
         {
-            currentGame = sender;
-            OpenFile();
-            SetGame();
+            try
+            {
+                currentGame = sender;
+                OpenFile();
+                SetGame();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message + "\r\n\r\n" +  e.Data + "\r\n\r\n" + e.StackTrace + "\r\n\r\n" + e.ToString());
+            }
         }
 
         public void OpenFile()
         {
             //Open XML File
-            XmlTextReader reader = new XmlTextReader(Path.GetDirectoryName(Application.ExecutablePath).ToString() + @"\..\..\Resources\CurrentXML.xml");
+            byte[] byteArray = Encoding.ASCII.GetBytes(Properties.Resources.CurrentXML);
+            MemoryStream stream = new MemoryStream(byteArray);
+            XmlTextReader reader = new XmlTextReader(stream);
 
             int firstArray = 0;
             while (reader.Read())
