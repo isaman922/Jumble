@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-A Bank Formerly Known As...
+Test Jumble
 Created by: Daniel Isaman
-Date: 11/21/19
+Date: 11/15/19
 
 Tips to creating a jumble:
    1) Keep answers strictly alphabetic, and less than or equal to 12 characters long
@@ -16,11 +16,11 @@ Tips to creating a jumble:
    7) To change the game, save the previous game as something meaningful, and rename the file to be used "CurrentXML.xml"
 -->
 <jumble>
-<gameData title="Now Known As..." subtitle="January 2020" supervisor="JC Davis"></gameData>
-<word round="reg" answer="Veritex" hint="Green" index="46"></word>
-<word round="reg" answer="Axos" hint="Bank of Internet" index="1"></word>
-<word round="reg" answer="Midland" hint="HomeStar" index="13"></word>
-<word round="reg" answer="Incredible" hint="River Valley" index="46"></word>
-<word round="reg" answer="BankFirst" hint="First Neighborhood Bank of Alabama" index="138"></word>
-<word round="fin" answer="Misbranded" hint="Because of the rigid inspection of their cows and irons, Farmers is rarely __________."></word>
+<gameData title="Bank Word Jumble" subtitle="November 2019" supervisor="JC Davis"></gameData>
+<word round="reg" answer="Glacier" hint="Family" index="56"></word>
+<word round="reg" answer="Comenity" hint="Not cards, folks" index="14"></word>
+<word round="reg" answer="Alpine" hint="Let's chat" index="24"></word>
+<word round="reg" answer="Landmark" hint="From Collierville, TN" index="37"></word>
+<word round="reg" answer="BlueRidge" hint="From Independence, MO" index="17"></word>
+<word round="fin" answer="Incredible" hint="I used to think River Valley Bank was good but now it's undeniably __________!"></word>
 </jumble>

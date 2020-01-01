@@ -131,6 +131,8 @@
             this.title.Font = new System.Drawing.Font("Jokerman", 56F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.LightYellow;
             this.title.Location = new System.Drawing.Point(15, 24);
+            this.title.MaximumSize = new System.Drawing.Size(763, 109);
+            this.title.MinimumSize = new System.Drawing.Size(763, 109);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(763, 109);
             this.title.TabIndex = 0;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-A Bank Formerly Known As...
+Online-Only Bank Jumble; December 2019
 Created by: Daniel Isaman
 Date: 11/21/19
 
@@ -16,11 +16,11 @@ Tips to creating a jumble:
    7) To change the game, save the previous game as something meaningful, and rename the file to be used "CurrentXML.xml"
 -->
 <jumble>
-<gameData title="Now Known As..." subtitle="January 2020" supervisor="JC Davis"></gameData>
-<word round="reg" answer="Veritex" hint="Green" index="46"></word>
-<word round="reg" answer="Axos" hint="Bank of Internet" index="1"></word>
-<word round="reg" answer="Midland" hint="HomeStar" index="13"></word>
-<word round="reg" answer="Incredible" hint="River Valley" index="46"></word>
-<word round="reg" answer="BankFirst" hint="First Neighborhood Bank of Alabama" index="138"></word>
-<word round="fin" answer="Misbranded" hint="Because of the rigid inspection of their cows and irons, Farmers is rarely __________."></word>
+<gameData title="Online-Only Jumble" subtitle="December 2019" supervisor="JC Davis"></gameData>
+<word round="reg" answer="OpeningAct" hint="Check on a Merrick application?" index="369"></word>
+<word round="reg" answer="Alloy" hint="Check on a Comenity Direct application?" index="14"></word>
+<word round="reg" answer="RisingBank" hint="Affiliated with Midwest Bank Centre" index="35"></word>
+<word round="reg" answer="VirtualBank" hint="Affiliated with Iberia" index="8"></word>
+<word round="reg" answer="HandRBlock" hint="Issues Emerald Cards (Axos)" index="15"></word>
+<word round="fin" answer="NoBranches" hint="Try as she might to withdraw coconuts from the tree, the old lady couldn't climb it because it had ___ _______"></word>
 </jumble>
